@@ -8,10 +8,17 @@
 import SwiftUI
 
 struct LibraryList: View {
+    
+    //Properties
+    @State private var iconSelection = Set<UUID>()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(selection: $iconSelection) {
+            
+            }
+        }
     }
-}
+
 
 struct LibraryList_Previews: PreviewProvider {
     static var previews: some View {
