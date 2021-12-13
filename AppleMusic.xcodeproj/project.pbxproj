@@ -14,6 +14,7 @@
 		C06B64B62767209300565E89 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06B64B52767209300565E89 /* LibraryView.swift */; };
 		C07BB3332767322100B5B945 /* LibraryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BB3322767322100B5B945 /* LibraryList.swift */; };
 		C07BB335276733E500B5B945 /* LibraryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BB334276733E500B5B945 /* LibraryListCell.swift */; };
+		C07BB3372767347F00B5B945 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BB3362767347F00B5B945 /* Icons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C06B64B52767209300565E89 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		C07BB3322767322100B5B945 /* LibraryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryList.swift; sourceTree = "<group>"; };
 		C07BB334276733E500B5B945 /* LibraryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListCell.swift; sourceTree = "<group>"; };
+		C07BB3362767347F00B5B945 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +61,12 @@
 			children = (
 				C06B64A727664F5200565E89 /* AppleMusicApp.swift */,
 				C06B64A927664F5200565E89 /* ContentView.swift */,
-				C06B64AB27664F5300565E89 /* Assets.xcassets */,
-				C06B64AD27664F5300565E89 /* Preview Content */,
 				C06B64B52767209300565E89 /* LibraryView.swift */,
 				C07BB3322767322100B5B945 /* LibraryList.swift */,
 				C07BB334276733E500B5B945 /* LibraryListCell.swift */,
+				C07BB3362767347F00B5B945 /* Icons.swift */,
+				C06B64AB27664F5300565E89 /* Assets.xcassets */,
+				C06B64AD27664F5300565E89 /* Preview Content */,
 			);
 			path = AppleMusic;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				C07BB335276733E500B5B945 /* LibraryListCell.swift in Sources */,
 				C06B64AA27664F5200565E89 /* ContentView.swift in Sources */,
+				C07BB3372767347F00B5B945 /* Icons.swift in Sources */,
 				C07BB3332767322100B5B945 /* LibraryList.swift in Sources */,
 				C06B64B62767209300565E89 /* LibraryView.swift in Sources */,
 				C06B64A827664F5200565E89 /* AppleMusicApp.swift in Sources */,
