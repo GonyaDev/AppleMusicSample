@@ -32,6 +32,7 @@ struct ContentView: View {
                     Text("Поиск")
                 }
         }
+        .accentColor(.pink)
     }
 }
 
