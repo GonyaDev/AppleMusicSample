@@ -21,7 +21,7 @@ struct LibraryListCell: View {
                        )
                 .foregroundColor(.pink)
             
-            Text(icons.iconName)
+            Text(icons.name)
                 .padding(.leading, Metrics.ListTitlePaddingToLeft)
                 .font(.title2)
             
