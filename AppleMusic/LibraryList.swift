@@ -14,10 +14,13 @@ struct LibraryList: View {
     
     var body: some View {
         List(selection: $iconSelection) {
-            
+            ForEach(SetOfIcons, id: \.self) { icons in
+                LibraryListCell(icons: icons)
             }
+            .onMove(perform: {_,_ in })
         }
     }
+}
 
 
 struct LibraryList_Previews: PreviewProvider {
