@@ -13,6 +13,7 @@
 		C06B64AF27664F5300565E89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06B64AE27664F5300565E89 /* Preview Assets.xcassets */; };
 		C06B64B62767209300565E89 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06B64B52767209300565E89 /* LibraryView.swift */; };
 		C07BB3332767322100B5B945 /* LibraryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BB3322767322100B5B945 /* LibraryList.swift */; };
+		C07BB335276733E500B5B945 /* LibraryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BB334276733E500B5B945 /* LibraryListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C06B64AE27664F5300565E89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C06B64B52767209300565E89 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		C07BB3322767322100B5B945 /* LibraryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryList.swift; sourceTree = "<group>"; };
+		C07BB334276733E500B5B945 /* LibraryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C06B64AD27664F5300565E89 /* Preview Content */,
 				C06B64B52767209300565E89 /* LibraryView.swift */,
 				C07BB3322767322100B5B945 /* LibraryList.swift */,
+				C07BB334276733E500B5B945 /* LibraryListCell.swift */,
 			);
 			path = AppleMusic;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07BB335276733E500B5B945 /* LibraryListCell.swift in Sources */,
 				C06B64AA27664F5200565E89 /* ContentView.swift in Sources */,
 				C07BB3332767322100B5B945 /* LibraryList.swift in Sources */,
 				C06B64B62767209300565E89 /* LibraryView.swift in Sources */,
