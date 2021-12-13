@@ -22,9 +22,3 @@ struct LibraryList: View {
     }
 }
 
-
-struct LibraryList_Previews: PreviewProvider {
-    static var previews: some View {
-        LibraryList()
-    }
-}
