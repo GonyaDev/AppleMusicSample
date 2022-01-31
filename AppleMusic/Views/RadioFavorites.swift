@@ -20,11 +20,11 @@ struct RadioFavorites: Hashable, Identifiable {
 }
 
 var ListOfFavorites: [RadioFavorites] = [
-    RadioFavorites(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
-    RadioFavorites(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
-    RadioFavorites(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
-    RadioFavorites(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
-    RadioFavorites(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
-    RadioFavorites(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
-    RadioFavorites(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>)
+    RadioFavorites(category: "Избранная радиостанция", title: "Хип-хоп на русском", subtitle: "Станция Apple Music", imageName: "ru-hip-hop"),
+    RadioFavorites(category: "Избранная радиостанция", title: "Хиты на русском ", subtitle: "Станция Apple Music", imageName: "ru-hits"),
+    RadioFavorites(category: "Избранная радиостанция", title: "Чил-аут", subtitle: "Станция Apple Music", imageName: "chill-out"),
+    RadioFavorites(category: "Избранная радиостанция", title: "Хип-хоп", subtitle: "Станция Apple Music", imageName: "hip-hop"),
+    RadioFavorites(category: "Избранная радиостанция", title: "Поп-музыка", subtitle: "Станция Apple Music", imageName: "pop"),
+    RadioFavorites(category: "Избранная радиостанция", title: "Танцевальная музыка", subtitle: "Станция Apple Music", imageName: "dance"),
+    RadioFavorites(category: "Избранная радиостанция", title: "Хиты", subtitle: "Станция Apple Music", imageName: "hits")
 ]
