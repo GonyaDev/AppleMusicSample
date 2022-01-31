@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C04518AB27A87E0500D83DEF /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04518AA27A87E0500D83DEF /* RadioStation.swift */; };
+		C04518AD27A8895A00D83DEF /* RadioViewStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04518AC27A8895A00D83DEF /* RadioViewStation.swift */; };
 		C06B64A827664F5200565E89 /* AppleMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06B64A727664F5200565E89 /* AppleMusicApp.swift */; };
 		C06B64AA27664F5200565E89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06B64A927664F5200565E89 /* ContentView.swift */; };
 		C06B64AC27664F5300565E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06B64AB27664F5300565E89 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		C04518AA27A87E0500D83DEF /* RadioStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
+		C04518AC27A8895A00D83DEF /* RadioViewStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioViewStation.swift; sourceTree = "<group>"; };
 		C06B64A427664F5200565E89 /* AppleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06B64A727664F5200565E89 /* AppleMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicApp.swift; sourceTree = "<group>"; };
 		C06B64A927664F5200565E89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				C0DE59B727A7ECA300A7691F /* RadioViewFavorite.swift */,
 				C0DE59B927A7EE3100A7691F /* RadioViewFavoriteCell.swift */,
 				C04518AA27A87E0500D83DEF /* RadioStation.swift */,
+				C04518AC27A8895A00D83DEF /* RadioViewStation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				C0DE59B627A7E25D00A7691F /* RadioFavorites.swift in Sources */,
 				C0CE71B2276B837B00429E36 /* MiniPlayerView.swift in Sources */,
 				C07BB3372767347F00B5B945 /* Icons.swift in Sources */,
+				C04518AD27A8895A00D83DEF /* RadioViewStation.swift in Sources */,
 				C0C968E9277AEFA0000AC55B /* RadioView.swift in Sources */,
 				C0DE59BA27A7EE3100A7691F /* RadioViewFavoriteCell.swift in Sources */,
 				C07BB3332767322100B5B945 /* LibraryList.swift in Sources */,
