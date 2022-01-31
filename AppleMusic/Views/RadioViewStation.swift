@@ -24,7 +24,11 @@ struct RadioViewStation: View {
                     //Place for cell
                 }
             }
+            
+            Spacer(minLength: 65)
         }
+        
+        .padding(.horizontal, 20)
     }
 }
 
