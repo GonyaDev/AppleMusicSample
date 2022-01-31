@@ -21,7 +21,7 @@ struct RadioViewStation: View {
             
             LazyVGrid(columns: columns, alignment: .leading) {
                 ForEach(listOfStations, id: \.self) { station in
-                    //Place for cell
+                    RadioViewStationCell(radioStation: station)
                 }
             }
             

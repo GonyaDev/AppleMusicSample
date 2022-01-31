@@ -16,10 +16,10 @@ struct RadioView: View {
                 Divider()
                     .padding(.horizontal, 20)
                     .padding(.vertical, 10)
+                
+                RadioViewStation()
             }
-            
             .navigationTitle(Tab.radio.rawValue)
-            
         }
     }
 }
