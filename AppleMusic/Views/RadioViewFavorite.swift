@@ -7,14 +7,24 @@
 
 import SwiftUI
 
-struct RadioViewFavorite: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct RadioFavorite: Hashable, Identifiable {
+    var id = UUID()
+    var category: String
+    var title: String
+    var subtitle: String?
+    
+    var imageName: String
+    var image: Image {
+        Image(imageName)
     }
 }
 
-struct RadioViewFavorite_Previews: PreviewProvider {
-    static var previews: some View {
-        RadioViewFavorite()
-    }
-}
+var ListOfFavorites: [RadioFavorite] = [
+    RadioFavorite(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
+    RadioFavorite(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
+    RadioFavorite(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
+    RadioFavorite(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
+    RadioFavorite(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
+    RadioFavorite(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>),
+    RadioFavorite(category: <#T##String#>, title: <#T##String#>, imageName: <#T##String#>)
+]
