@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+enum Tab: String {
+    case library = "Медиатека"
+    case radio = "Радио"
+    case search = "Поиск"
+}
+
 struct ContentView: View {
     
     var body: some View {
@@ -20,7 +26,7 @@ struct ContentView: View {
                     Text("Медиатека")
                 }
             
-            Text("Радио")
+            RadioView()
                 .tabItem {
                     Image(systemName: "dot.radiowaves.left.and.right")
                     Text("Радио")

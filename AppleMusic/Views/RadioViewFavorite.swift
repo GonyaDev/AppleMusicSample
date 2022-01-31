@@ -15,7 +15,7 @@ struct RadioViewFavorite: View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHGrid(rows: rows, alignment: .top, spacing: 10) {
                 ForEach(ListOfFavorites, id: \.self) { radio in
-                    //Here will be cell
+                    RadioViewFavoriteCell(Favorite: radio)
                 }
             }
             .padding(.leading, 20)

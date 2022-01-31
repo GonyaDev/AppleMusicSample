@@ -11,10 +11,14 @@ struct RadioView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                //Favourite will be here
+                RadioViewFavorite()
                 
-                
+                Divider()
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 10)
             }
+            
+            .navigationTitle(Tab.radio.rawValue)
             
         }
     }
