@@ -17,7 +17,7 @@
 		C07BB3372767347F00B5B945 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BB3362767347F00B5B945 /* Icons.swift */; };
 		C0C968E9277AEFA0000AC55B /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C968E8277AEFA0000AC55B /* RadioView.swift */; };
 		C0CE71B2276B837B00429E36 /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE71B1276B837B00429E36 /* MiniPlayerView.swift */; };
-		C0DE59B627A7E25D00A7691F /* RadioViewFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE59B527A7E25D00A7691F /* RadioViewFavorite.swift */; };
+		C0DE59B627A7E25D00A7691F /* RadioFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE59B527A7E25D00A7691F /* RadioFavorites.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		C07BB3362767347F00B5B945 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		C0C968E8277AEFA0000AC55B /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
 		C0CE71B1276B837B00429E36 /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
-		C0DE59B527A7E25D00A7691F /* RadioViewFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioViewFavorite.swift; sourceTree = "<group>"; };
+		C0DE59B527A7E25D00A7691F /* RadioFavorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioFavorites.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				C07BB334276733E500B5B945 /* LibraryListCell.swift */,
 				C0CE71B1276B837B00429E36 /* MiniPlayerView.swift */,
 				C0C968E8277AEFA0000AC55B /* RadioView.swift */,
-				C0DE59B527A7E25D00A7691F /* RadioViewFavorite.swift */,
+				C0DE59B527A7E25D00A7691F /* RadioFavorites.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,7 +184,7 @@
 			files = (
 				C07BB335276733E500B5B945 /* LibraryListCell.swift in Sources */,
 				C06B64AA27664F5200565E89 /* ContentView.swift in Sources */,
-				C0DE59B627A7E25D00A7691F /* RadioViewFavorite.swift in Sources */,
+				C0DE59B627A7E25D00A7691F /* RadioFavorites.swift in Sources */,
 				C0CE71B2276B837B00429E36 /* MiniPlayerView.swift in Sources */,
 				C07BB3372767347F00B5B945 /* Icons.swift in Sources */,
 				C0C968E9277AEFA0000AC55B /* RadioView.swift in Sources */,
